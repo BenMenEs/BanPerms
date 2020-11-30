@@ -1,0 +1,16 @@
+name: BanPerms
+version: 1.0.0
+main: BenMenEs\BanPerms\API
+api: 3.0.0
+
+softdepend:
+ - PurePerms
+
+website: vk.com/benplug
+author: BenPlug
+
+permissions:
+  ban.cmd:
+    default: op
+  unban.cmd:
+    default: op
